@@ -133,7 +133,8 @@ public class PracticeFormPage extends BasePage {
     }
 
     public void uploadImage(){
-        String path ="C:\\Users\\hcsegzi\\IdeaProjects\\qaFramework-master\\src\\test\\resources\\IMG_0680.PNG";
+        //String path ="C:\\Users\\hcsegzi\\IdeaProjects\\qaFramework-master\\src\\test\\resources\\IMG_0680.PNG";
+        String path ="src/test/resources/IMG_0680.PNG";
         imageElement.sendKeys(path);
     }
 
