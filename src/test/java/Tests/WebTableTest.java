@@ -30,7 +30,7 @@ public class WebTableTest extends Hooks {
 //        webTablesPage.fillRegisterForm(webTableObject);
 //        ExtentUtility.attachTestLog("pass","I fill in the register form");
 
-        webTablesPage.fillRegisterForms(webTableObject,8);
+        webTablesPage.fillRegisterForm(webTableObject);
         ExtentUtility.attachTestLog("pass","I fill in the register forms");
 
         webTablesPage.validateTableSize(webTableObject);
